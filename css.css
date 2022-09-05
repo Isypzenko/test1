@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/image/flag.jpg);
+}
+h1 {
+    text-align: center;
+    margin: 1.5cm;
+    padding: 10px;
+    background: #fff url(/image/gold_h1.png) no-repeat  center ;
+    font-size: 142px;
+    font-style: italic;
+}
+ul.facts{
+    position: relative;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+}
+h2{
+    text-align: center;
+    color:#fff;
+    font-size: 50px;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+}
+ul.facts>li{
+    font-size: 30px;
+    color:#fff;
+    line-height: 2.5em;
+}
+li::marker{
+    width: 10px;
+    height: 10px;
+}
+.photo_sanya{
+   margin-right: 50px;;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+a{
+    transition: 1s ease-in-out;
+}
+a:hover{
+    font-size: 50px;
+    color:bisque
+}
+.video{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+.mazdaphoto{
+position: absolute;
+    margin-top: 800px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.mazdaphoto>p{
+    font-size: 40px;
+    color: #fff;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+
+}
+.mazdaphoto2{
+    position: absolute;
+    margin-top: 1800px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+   
+}
+.mazdaphoto2>p{
+    font-size: 40px;
+    color: #fff;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+   z-index: 2;
+
+}
